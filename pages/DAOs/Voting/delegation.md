@@ -1,0 +1,50 @@
+---
+sidebar_position: 3
+---
+
+# Vote Delegation
+ 
+### Availability:
+
+* Typically available in both Whitelist-based and Token Holders Strategy DAOs.
+
+**Description:**
+
+Vote delegation is a key feature in many DAOs that allows participants to delegate their voting power to another trusted member or entity within the DAO. This delegation can be temporary or ongoing and is a mechanism for participants to have a say in the decision-making process even when they are unable to actively participate.
+
+### How it Works:
+
+Participants can choose to delegate their voting power to another member, often referred to as a delegate or proxy.
+
+Delegates are typically individuals or entities known for their expertise or alignment with the voter's interests.
+
+Delegators can specify the terms and duration of the delegation, including which types of proposals they want to delegate for and under what conditions.
+
+Delegates vote on behalf of the delegators according to their instructions.
+
+Delegators can revoke or change their delegation at any time.
+
+### Benefits:
+
+* **Increased flexibility:** 
+
+Delegators can still influence decisions without being actively engaged.
+
+* **Leverage expertise:** 
+
+Participants can delegate to experts or trusted entities with in-depth knowledge of specific issues.
+
+* **Inclusivity:** 
+
+Allows for broader participation, as not all participants need to be actively involved in voting.
+
+### Considerations:
+
+* Delegators should carefully choose their delegates and establish clear terms for delegation.
+
+* Transparency and accountability are crucial to ensure that delegates act in the best interests of the delegators.
+
+* Delegation can be a powerful tool for efficient decision-making in large DAOs, but it requires trust and responsible handling.
+
+Vote delegation is a valuable feature that enhances the governance dynamics of DAOs, making them more inclusive and responsive to the needs and preferences of participants. It is often utilized in both Whitelist-based and Token Holders Strategy DAOs, offering flexibility and increased participation.
+
