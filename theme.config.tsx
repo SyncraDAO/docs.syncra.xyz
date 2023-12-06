@@ -46,6 +46,18 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'Syncra is a next-generation DAO platform. Build your company with world-leading, no-code solution on Syncra.',
   },
+  sidebar: {
+    titleComponent({ title, type }) {
+      if (type === 'separator') {
+        return (
+          <div style={{ fontWeight: 'bold' }}>{title}</div>
+        )
+      }
+
+      return <>{title}</>
+    },
+    defaultMenuCollapseLevel: 1
+  },
   primaryHue: 270,
   primarySaturation: 100,
   useNextSeoProps() {

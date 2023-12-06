@@ -13,5 +13,35 @@
     "type": "page",
     "href": "https://twitter.com/syncra_xyz",
     "newWindow": true
-  }
+  },
+
+  "about": {
+    "title": "About",
+    "type": "separator"
+  },
+
+  "what-is-syncra": "What is Syncra?",
+
+  "daos": {
+    "title": "DAOs",
+    "type": "separator"
+  },
+
+  "creating-daos": "Creating DAOs",
+  "managing-daos": "Managing DAOs",
+  "proposals": "Proposals",
+  "strategies": "Strategies",
+  "voting": "Voting",
+
+  "glossary": {
+    "title": "Glossary",
+    "type": "separator"
+  },
+
+  "what-is-dao": "What is DAO?",
+  
+  "---": {
+    "type": "separator"
+  },
+  "brand-kit": "Brand Kit"
 }
