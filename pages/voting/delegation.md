@@ -18,8 +18,6 @@ Participants can choose to delegate their voting power to another member, often 
 
 Delegates are typically individuals or entities known for their expertise or alignment with the voter's interests.
 
-Delegators can specify the terms and duration of the delegation, including which types of proposals they want to delegate for and under what conditions.
-
 Delegates vote on behalf of the delegators according to their instructions.
 
 Delegators can revoke or change their delegation at any time.
