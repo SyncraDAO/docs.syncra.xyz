@@ -16,25 +16,24 @@
   },
 
   "about": {
-    "title": "About",
+    "title": "ABOUT",
     "type": "separator"
   },
 
   "what-is-syncra": "What is Syncra?",
 
   "daos": {
-    "title": "DAOs",
+    "title": "KNOWLEDGE BASE",
     "type": "separator"
   },
 
-  "creating-daos": "Creating DAOs",
-  "managing-daos": "Managing DAOs",
+  "dao": "Creating DAOs",
   "proposals": "Proposals",
   "strategies": "Strategies",
   "voting": "Voting",
 
   "glossary": {
-    "title": "Glossary",
+    "title": "GLOSSARY",
     "type": "separator"
   },
 
