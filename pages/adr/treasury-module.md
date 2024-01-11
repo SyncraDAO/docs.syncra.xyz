@@ -31,13 +31,13 @@ Contract responsible for managing the funds, to deposit funds, you have to use y
 
 ### Flows
 #### Creating treasury for new DAO  
-![connecting wallet](/img/adr/treasury/create-new.png)
+![create new](/img/adr/treasury/create-new.png)
 
 #### Creating treasury for existing DAO
-![connecting wallet](/img/adr/treasury/create-existing.png)
+![create existing](/img/adr/treasury/create-existing.png)
 
 #### Withdrawing funds
-![connecting wallet](/img/adr/treasury/withdraw.png)
+![withdraw](/img/adr/treasury/withdraw.png)
 
 ## Consequences
 This architecture makes the Treasury contract completely independent of the Governor contract. It requires keeping track of treasuries, and the data must be kept in a durable fashion. Otherwise, it will be nearly impossible to know if a given Governor contract has a Treasury contract. Storing it in a database is not advised due to its centralized nature.
