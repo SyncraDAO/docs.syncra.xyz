@@ -34,13 +34,13 @@ On the DAO page, look for the "Create New Proposal" button and click on it to in
 
 ### 4. Select Voting Strategy
 
-Depending on the voting strategy chosen during DAO creation (PSP22-based or Whitelist-based), you will need to select the appropriate voting strategy for your proposal. The available options differ based on your DAO strategy.
+Depending on the voting strategy chosen during DAO creation (Token Holders or Addresslist), you will need to select the appropriate voting strategy for your proposal. The available options differ based on your DAO strategy.
 
 * For Token Holders Strategy:
 
 You may need to select the appropriate voting strategy that aligns with the DAO's governance structure.
 
-* For Whitelist-based Strategy:
+* For Addresslist Strategy:
 
 The voting strategy will typically be based on the options selected during DAO creation, such as "Basic Voting or Referendum," "Polling with Multiple Answers," or "Approval with Multiple Answers."
 

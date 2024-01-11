@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-# Whitelist-based Strategy
+# Addresslist Strategy
 
-The Whitelist-based Strategy is a straightforward approach to managing a DAO's decision-making process. Under this strategy, each wallet on the whitelist is granted an equal vote, regardless of the number of tokens held by each participant. Here's a closer look at this strategy:
+The Addresslist Strategy is a straightforward approach to managing a DAO's decision-making process. Under this strategy, each wallet on the whitelist is granted an equal vote, regardless of the number of tokens held by each participant. Here's a closer look at this strategy:
 
-* Equal Voting Power: In the Whitelist-based Strategy, every approved participant has the same voting power. This approach ensures that each member's voice carries equal weight in the decision-making process.
+* Equal Voting Power: In the Addresslist Strategy, every approved participant has the same voting power. This approach ensures that each member's voice carries equal weight in the decision-making process.
 
 * Approved Participants: The founder of the DAO maintains a predefined list of wallet addresses that are eligible for participation. Only those on the whitelist can vote and engage in the DAO's activities.
 

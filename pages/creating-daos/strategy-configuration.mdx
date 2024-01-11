@@ -1,0 +1,22 @@
+import { Card, Cards } from 'nextra/components'
+
+### Choose your strategy
+
+There are two main strategies to choose from when creating a DAO: Token Holders or Addresslist. Token Holders DAOs are based on the PSP22 standard, which allows for the creation of custom tokens that can be used to represent ownership or voting rights in the DAO. Addresslist DAOs, on the other hand, are based on a list of approved wallets that can participate in the DAO.
+
+![DAO Strategies](/img/strategy-dao.png)
+
+#### Token Holders
+
+If you decide to go with **Token Holders** strategy, you will be asked to either provide an address of the existing PSP22 token, or create one within our UI.
+
+#### Addresslist
+
+In case of **Addresslist** voting, please provide a list of (AlephZero based) wallet addresses eligible for voting.
+
+**NOTE:** Please be aware of the fact that selected DAO Strategy (Token Holders or Addresslist), will also impact the available Voting Strategies in the DAO.
+
+<Cards>
+  <Card title="Token Holders strategy" href="/strategies/psp22" />
+  <Card title="Addresslist strategy" href="/strategies/whitelist-strategy" />
+</Cards>
