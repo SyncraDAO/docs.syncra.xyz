@@ -9,7 +9,10 @@ We need the ability for DAO to have treasures that they can manage using the Gov
 ## Decision
 Following contracts need to be implemented.
 
-Treasure Factory -> Contract responsible for creating treasures.
+
+### Contracts
+#### Treasure Factory
+Contract responsible for creating treasures.
 
 `fn get_treasury(&self, owner: AccountId) -> Option<AccountId>`: Returns the treasury for the given `AccoundId`.
 
@@ -17,13 +20,24 @@ Treasure Factory -> Contract responsible for creating treasures.
 
 `fn create_on_behalf(&mut self, owner: AccountId, salt: Salt) -> Result<AccountId, TreasuryFactoryError>`: Allows creating a Treasury during the creation of the DAO, which possibly should be secured and allow calls only from the DAO Factory.
 
-Treasury -> Contract responsible for managing the funds, to deposit funds, you have to use your wallet, treasury does not expose special methods to do so. Withdrawal methods can be called only by the owner of the treasury.
+#### Treasury 
+Contract responsible for managing the funds, to deposit funds, you have to use your wallet, treasury does not expose special methods to do so. Withdrawal methods can be called only by the owner of the treasury.
 
 `fn withdraw_native(&mut self, to: AccountId, amount: Balance) -> Result<(), TreasuryError>`: Allows for the withdrawal of native tokens from the contract to a given account.
 
 `fn withdraw_psp22(&mut self, token: AccountId, to: AccountId, amount: Balance, data: Vec<u8>) -> Result<(), TreasuryError>`: Allows for the withdrawal of PSP22 tokens from the contract to a given account.
 
 `fn withdraw_psp34(&mut self, token: AccountId, to: AccountId, id: Id, data: Vec<u8>) -> Result<(), TreasuryError>`: Allows for the withdrawal of PSP34 tokens from the contract to a given account.
+
+### Flows
+#### Creating treasury for new DAO  
+![connecting wallet](/img/adr/treasury/create-new.png)
+
+#### Creating treasury for existing DAO
+![connecting wallet](/img/adr/treasury/create-existing.png)
+
+#### Withdrawing funds
+![connecting wallet](/img/adr/treasury/withdraw.png)
 
 ## Consequences
 This architecture makes the Treasury contract completely independent of the Governor contract. It requires keeping track of treasuries, and the data must be kept in a durable fashion. Otherwise, it will be nearly impossible to know if a given Governor contract has a Treasury contract. Storing it in a database is not advised due to its centralized nature.
