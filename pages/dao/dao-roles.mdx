@@ -1,0 +1,18 @@
+import { Card } from 'nextra/components'
+import { FaArrowRight } from "react-icons/fa";
+import {Callout} from 'nextra-theme-docs'
+
+### DAO Management Roles
+There are two managment roles in DAO:
+
+![DAO Strategies](/img/dao-roles.png)
+
+#### Admin 
+The admin role allows to assign and revoke managers and admin roles.
+<Callout type="info">
+When creating a governance token along with DAO, the specified admin wallet is granted admin rights in the governance token smart contract. See [Enabling Governance Token](/dao/strategy-configuration/token-strategy).
+</Callout>
+
+#### Manager
+The manager role grants the authority to modify DAO parameters. It is recommended to establish this role during the initial phases of DAO operation. Subsequently, this role can be revoked, and adjustments to DAO parameters can be made through proposals and participant voting.
+In a Wallet-based DAO, it can assign new members or remove others.
