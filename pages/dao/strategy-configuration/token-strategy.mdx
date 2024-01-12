@@ -1,0 +1,21 @@
+import {Callout} from 'nextra-theme-docs'
+
+## Enabling Governance Token
+When choosing Token-based strategy for your DAO, you can use an existing PSP22 token or create a new token.
+
+![DAO Strategies](/img/token-choice.png)
+
+### Exisiting token
+To use an existing token you must provide a valid address to a smart contract which implements PSP22 standard.
+
+![DAO Strategies](/img/existing-token.png)
+
+### Create a new token
+If you opt to create a new token, you must provide some basic information about the token such as: token name, token symbol and a number of decimals.
+In the same step, you can setup an initial token distribution.
+Finally, add wallet addresses which should be granted to mint the token in the future.
+<Callout type="info">
+The specified minters can be later revoked by the smart contract admin. See [Roles in DAO](/dao/dao-roles).
+</Callout>
+
+![DAO Strategies](/img/new-token.png)

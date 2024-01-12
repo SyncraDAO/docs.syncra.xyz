@@ -1,0 +1,32 @@
+import {Callout} from 'nextra-theme-docs'
+
+### Set up Voting Rules
+
+In this section, you can adjust the voting rules in your DAO.
+
+![proposal rules](/img/proposal-voting-rules.png)
+
+#### Quorum
+The qourum parameter tells how many votes must be cast on a proposal to validate voting.
+For Token-based strategy, it is the percent of the token total supply.
+For Wallet-based strategy, it is the percent of the total number of DAO members.
+<Callout type="info">
+Note that the calculations are performed on unsigned integer values. The final calculations result is rounded up. For example:<br/>
+49% * 4 = 2<br/>
+51% * 4 = 3<br/>
+</Callout>
+
+#### Proposal Threshold
+Proposal Threshold is the percentage of the overall voting power (token supply or no. of members) necessary to permit the creation of a proposal by a wallet.
+<Callout type="info">
+Note that for Wallet-based DAOs, Proposal Threshold may require more than one voting power (each member owns exactly one voting power). In this case, only members who received enough delegations may create proposals.
+</Callout>
+
+#### Minimum and Maximum Voting Period
+These parameters restrict the period of voting time which can be set by a proposal creator.
+
+#### Voting Delay
+The time gap between creating a proposal and opening it for voting.
+
+#### Execution Delay
+The minimum time interval between the conclusion of voting and the implementation of the voting resolution.
