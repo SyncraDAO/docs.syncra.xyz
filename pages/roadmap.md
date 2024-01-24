@@ -35,12 +35,12 @@
 
 **Prepare for mainnet launch**
 
-- Conduct a thorough Audit of SYNCRA's smart contracts. ⌛
+- Conduct a thorough Audit of Syncra's smart contracts. ⌛
 - Design and develop the pricing framework. ⌛
 
-**Launch SYNCRA Management Platform on mainnet**
+**Launch Syncra Management Platform on mainnet**
 
-- Deploy SYNCRA contracts on mainnet. ⌛
+- Deploy Syncra contracts on mainnet. ⌛
 
 ### Phase 5
 

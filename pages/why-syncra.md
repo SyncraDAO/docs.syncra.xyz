@@ -1,6 +1,6 @@
-# Why SYNCRA?
+# Why Syncra?
 
-## What is SYNCRA?
+## What is Syncra?
 
 Syncra is DAO-as-a-service platform for the Substrate network ecosystem.
 
@@ -8,11 +8,11 @@ We understand the importance of seamless integration and top-notch user experien
 
 One of our standout features are undisclosed voting, treasury management, on-chain actions and proposal automation, making governance more efficient and effective.
 
-## Our Mission in Building SYNCRA
+## Our Mission in Building Syncra
 
-In response to the evident need for a reliable and efficient DAO management platform within Substrate-based networks, SYNCRA was born. Our platform is designed as the premier solution for any entity engaged in these networks. We're dedicated to resolving numerous challenges present in existing solutions and introducing innovative features that are yet to be seen in the market.
+In response to the evident need for a reliable and efficient DAO management platform within Substrate-based networks, Syncra was born. Our platform is designed as the premier solution for any entity engaged in these networks. We're dedicated to resolving numerous challenges present in existing solutions and introducing innovative features that are yet to be seen in the market.
 
-Our primary objective is to enhance the DAO ecosystem, focusing on speed and simplicity. We aim for a system that can be set up swiftly, within minutes, offering the pinnacle of user experience in the DAO realm. SYNCRA allows for customizable DAO configurations, with various features crafted as modular components for straightforward integration. A pivotal feature of SYNCRA is our commitment to privacy, exemplified by our implementation of confidential voting mechanisms.
+Our primary objective is to enhance the DAO ecosystem, focusing on speed and simplicity. We aim for a system that can be set up swiftly, within minutes, offering the pinnacle of user experience in the DAO realm. Syncra allows for customizable DAO configurations, with various features crafted as modular components for straightforward integration. A pivotal feature of Syncra is our commitment to privacy, exemplified by our implementation of confidential voting mechanisms.
 
 For these reasons, we chose Aleph Zero, a Substrate-based blockchain, as our foundational platform. This decision was influenced by the exceptional caliber of projects developed on Aleph Zero and its strong emphasis on high-quality decentralized finance. We are confident and optimistic about the potential of Aleph Zero.
 

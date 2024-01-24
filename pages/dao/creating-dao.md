@@ -53,3 +53,10 @@ Depending on the strategy you choose, you'll need to provide proposal voting rul
 Once you have provided all the necessary information, you can review your choices and confirm your decision to create your DAO. After confirming your decision, your DAO will be created and visible on the blockchain. You can now start managing your community or project through your DAO.
 
 ![deploy button](/img/deploy.png)
+
+
+### XD
+
+Quorum represents the number of "yes" votes needed for a vote to be considered valid and pass.
+
+Voting period is the length of time that a proposal is available to be voted on. 

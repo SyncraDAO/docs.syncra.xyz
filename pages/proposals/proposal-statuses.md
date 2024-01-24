@@ -2,7 +2,7 @@
 
 ![proposal statuses](/proposals/proposal-statuses.png "Proposal Statuses")
 
-SYNCRA's proposals support different states:
+Syncra's proposals support different states:
 
 **Announced**
 
