@@ -1,6 +1,4 @@
----
-sidebar_position: 1
----
+import {Callout} from 'nextra-theme-docs'
 
 # How to create DAO with the Syncra App
 
@@ -61,6 +59,12 @@ If you choose wallet based, you'll provide an list of an addresses which will be
 Next, configure the parameters that will govern the voting process in your DAO.
 
 **Quorum** - is the required percentage of affirmative votes for a proposal to be deemed valid and approved. Commonly, this is set at a 50% majority.
+
+<Callout type="info">
+  Note that the calculations are performed on unsigned integer values. The final calculations result is rounded up. <br/>For example:<br/>
+  49% * 4 = 2<br/>
+  51% * 4 = 3<br/>
+</Callout>
 
 **Proposal Threshold** - is the minimum quantity of tokens that a wallet must hold to initiate a proposal.
 
