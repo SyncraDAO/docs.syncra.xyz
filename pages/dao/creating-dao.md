@@ -2,61 +2,102 @@
 sidebar_position: 1
 ---
 
-# Creating DAO
+# How to create DAO with the Syncra App
 
-Creating a DAO is a great way to leverage the power of blockchain technology to manage a community or a project. Here's a step-by-step tutorial on how to create a DAO using Syncra platform:
+In this guide, we’ll walk through the steps to create a DAO using the Syncra App!
 
-### 1. Connect your wallet
+DAOs are great way to leverage the power of blockchain technology to manage a community or a project.
 
-Before creating a DAO, you'll need to have a wallet that can connect to the blockchain. You can use polkadot{.js} wallet extension to connect to Syncra dApp.
+## 1. Go to the Syncra App
 
-![connecting wallet](/img/wallets-modal.png)
+Got to [testnet.syncra.xyz](https://testnet.syncra.xyz) to get started! You’ll land on this homepage.
 
-### 2. Create DAO
+![homepage](/create-dao/step-1.png)
 
-Once you have connected your wallet, you can start creating your DAO.
+## 2. Connect your wallet
 
-![create DAO](/img/create-dao.png)
+‍Click “Connect Wallet” in the top right corner and choose from the options to connect.
 
-### 3. Provide Information
+![connect wallet](/create-dao/step-2.png)
 
-You'll need to provide some basic information about your DAO, such as its name, logo, background image, and social media links. This information is used to represent your DAO on the blockchain and make it easily recognizable to other users.
+## 3. Click “create your DAO to launch the creation flow
 
-![DAO Info](/img/dao-info.png)
+Click the "create your DAO" button to get started of creating your DAO on Aleph Zero chain.
 
-![DAO Socials](/img/dao-socials.png)
+‍![homepage](/create-dao/step-1.png)
 
-### 4. Choose your strategy
+## 4. Set your DAO’s name, logo, description, and websites
 
-There are two main strategies to choose from when creating a DAO: PSP22-based or wallet-based. PSP22-based DAOs are based on the PSP22 standard, which allows for the creation of custom tokens that can be used to represent ownership or voting rights in the DAO. wallet-based DAOs, on the other hand, are based on a list of approved wallets that can participate in the DAO.
+In this step, you will give your DAO a name, upload a logo, provide a brief description, and include website links. These elements will be displayed publicly on your DAO's dashboard.
 
-![DAO Strategies](/img/strategy-dao.png)
+These settings can be updated later through a voting process within your DAO.
 
-**A. Token Holders**
+‍![links](/create-dao/step-4.png)
 
-If you decide to go with **Token Holders** strategy, you will be asked to either provide an address of the existing PSP22 token, or create one within our UI.
+## 5. Define membership: Token based or Wallet based
 
-**B. Addresslist**
+Next, you’ll decide how you want to define DAO membership: token based or wallet based.
 
-In case of **Addresslist** voting, please provide a list of (AlephZero based) wallet addresses eligible for voting.
+### Token based
 
-**NOTE:** Please be aware of the fact that selected DAO Strategy (Token Holders or Addresslist), will also impact the available Voting Strategies in the DAO.
+If you choose token holders, you can either choose to mint new token, or wrap existing one.
 
-### 5. Set up Voting Rules
+If you want to mint new token, you’ll give your token a name and symbol. Then, you’ll choose how many to mint and which wallets to distribute them to. You can always mint more tokens with a proposal in the future.
 
-Depending on the strategy you choose, you'll need to provide proposal voting rules and a list of approved wallets for your wallet-based DAO. This information is used to ensure that only approved participants can participate in the DAO and have voting or ownership rights.
+‍![new token](/create-dao/step-new-token.png)
 
-![proposal rules](/img/proposal-voting-rules.png)
+If you want to wrap existing token, you will be asked for it's contract address. Based on on-chain information, we will prepare wrapped token.
 
-### 6. Confirm your choices and create your DAO 
+‍![existing token](/create-dao/step-existing-token.png)
 
-Once you have provided all the necessary information, you can review your choices and confirm your decision to create your DAO. After confirming your decision, your DAO will be created and visible on the blockchain. You can now start managing your community or project through your DAO.
+### Wallet based
 
-![deploy button](/img/deploy.png)
+If you choose wallet based, you'll provide an list of an addresses which will be able to create, and vote on proposals. You can always add more wallets through the proposals.
 
+‍![wallet based](/create-dao/step-wallet-based.png)
 
-### XD
+## 6. Configure governance parameters
 
-Quorum represents the number of "yes" votes needed for a vote to be considered valid and pass.
+Next, configure the parameters that will govern the voting process in your DAO.
 
-Voting period is the length of time that a proposal is available to be voted on. 
+**Quorum** - is the required percentage of affirmative votes for a proposal to be deemed valid and approved. Commonly, this is set at a 50% majority.
+
+**Proposal Threshold** - is the minimum quantity of tokens that a wallet must hold to initiate a proposal.
+
+**Minimum voting period** - is the shortest duration a proposal can remain active. Proposals cannot have a duration shorter than this set period.
+
+**Maximum voting period** - is the longest duration a proposal can remain active. Proposals cannot exceed this set duration in length.
+
+**Voting delay** - is the period during which a proposal remains in the 'Announced' state before voting commences, allowing DAO participants to become acquainted with it.
+
+**Execution delay** - is the time frame between the conclusion of the voting process and the moment when the actions proposed can be implemented.
+
+In addition to establishing Voting Rules, you must select the Voting Strategies to be used within the DAO.
+
+### Voting Rules - Token Based DAO
+
+If you opt for a Token-Based DAO, you have the option to choose between:
+
+**Basic Voting** - a voter can vote on "yes", "no", or "abstain"
+
+**Weighted Voting** - a voter can vote on multiple answers.
+
+### Voting Rules - Wallet Based DAO
+
+If you opt for a Wallet-Based DAO, you have the option to choose between:
+
+**Basic Voting** - a voter can vote on "yes", "no", or "abstain"
+
+**Polling** - a voter can vote on one answer.
+
+**Multiple Answers** - a voter can vote on multiple answers.
+
+‍![governance](/create-dao/step-governance.png)
+
+## 7. Review the DAO settings are correct
+
+Now that you have completed all the necessary steps, it's important to review and ensure all settings are accurate. Remember, after deployment, the only aspects you cannot modify through a vote are the blockchain network selected and the token you have created.
+
+Once you are confident that all information is correct, proceed to click on "Deploy"
+
+‍![review](/create-dao/step-review.png)
