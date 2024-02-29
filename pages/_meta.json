@@ -48,6 +48,13 @@
 
   "what-is-dao": "What is DAO?",
   
+  "discord-bot": {
+    "title": "DISCORD BOT",
+    "type": "separator"
+  },
+
+  "discord-bot-setup": "Setup Guide",
+
   "---": {
     "type": "separator"
   },
