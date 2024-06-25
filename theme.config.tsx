@@ -42,7 +42,7 @@ const config: DocsThemeConfig = {
       </a>
     )
   },
-  docsRepositoryBase: 'https://github.com/SyncraDAO/docs.syncra.xyz',
+  docsRepositoryBase: 'https://github.com/syncradao/docs.syncra.xyz',
   footer: {
     text: 'Syncra is a next-generation DAO platform. Build your company with world-leading, no-code solution on Syncra.',
   },
