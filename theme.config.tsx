@@ -5,7 +5,7 @@ import { useRouter } from 'next/router'
 const config: DocsThemeConfig = {
   head: () => {
     const { asPath, defaultLocale, locale } = useRouter()
-    const { frontMatter } = useConfig()
+
     const url =
       'https://docs.syncra.xyz' +
       (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
@@ -14,10 +14,10 @@ const config: DocsThemeConfig = {
       <>
         <meta property="og:url" content={url} />
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
-        <meta property="og:title" content={`${frontMatter.title} - Syncra` || 'Syncra'} />
+        <meta property="og:title" content={`Documentation | Syncra`} />
         <meta
           property="og:description"
-          content={frontMatter.description || 'The next site builder'}
+          content={"Syncra is a next-generation DAO platform. Build your company with world-leading, no-code solution on Syncra."}
         />
       </>
     )
