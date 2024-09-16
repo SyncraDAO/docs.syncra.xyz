@@ -6,7 +6,7 @@ Our bot is designed to streamline communication and updates for DAOs directly wi
 
 The bot invite link can be found on the Syncra platform or directly accessed via:
 
-https://discord.com/api/oauth2/authorize?client_id=1204804908524507147&permissions=534723947584&scope=bot
+[https://discord.com/oauth2/authorize?client_id=1283150281038889171](https://discord.com/oauth2/authorize?client_id=1283150281038889171)
 
 ## Setting Up the Bot
 
