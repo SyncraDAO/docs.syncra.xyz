@@ -1,18 +1,11 @@
 import React from 'react'
 import { DocsThemeConfig, useConfig } from 'nextra-theme-docs'
-import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
   head: () => {
-    const { asPath, defaultLocale, locale } = useRouter()
-
-    const url =
-      'https://docs.syncra.xyz' +
-      (defaultLocale === locale ? asPath : `/${locale}${asPath}`)
- 
     return (
       <>
-        <meta property="og:url" content={url} />
+        <meta property="og:url" content={"https://docs.syncra.xyz"} />
         <link rel="icon" type="image/x-icon" href="/favicon.svg" />
         <meta property="og:title" content={`Documentation | Syncra`} />
         <meta
