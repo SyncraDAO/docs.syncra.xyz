@@ -30,7 +30,7 @@ const config: DocsThemeConfig = {
   banner: {
     key: '2.0-release',
     text: (
-      <a href="https://testnet.syncra.xyz" target="_blank">
+      <a href="https://app.syncra.xyz" target="_blank">
         🎉 Syncra Beta Testnet Application is released. Check it out →
       </a>
     )

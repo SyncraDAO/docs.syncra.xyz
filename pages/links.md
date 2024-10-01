@@ -1,7 +1,7 @@
 # Links
 
 - Website: https://syncra.xyz/
-- Testnet Application: https://testnet.syncra.xyz/
+- Testnet Application: https://app.syncra.xyz/
 
 ### Socials
 - Twitter: https://x.com/syncra_xyz
